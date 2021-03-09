@@ -22,6 +22,7 @@ X = x_data.to_numpy()
 Y = y_data.to_numpy()
 
 RMSE = np.zeros((10,5))
+
 Lambda = [0.1, 1,10,100,200]
 for i in range(10):
     drop = range(i*15,(i+1)*15);
